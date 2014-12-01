@@ -3,7 +3,10 @@ Parses PDFs.
 """
 from setuptools import find_packages, setup
 
-dependencies = ['click']
+dependencies = [
+    'click',
+    'pdfminer3k',
+]
 
 setup(
     name='pdfparser',
