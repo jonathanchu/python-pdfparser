@@ -5,7 +5,7 @@ from setuptools import find_packages, setup
 
 dependencies = [
     'click',
-    'pdfminer3k',
+    'pdfminer',
 ]
 
 setup(
